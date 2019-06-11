@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: myapptodo
-          image: YOURACRNAME.azurecr.io/myapptodo:v1
+          image: tomasaks987valda598.azurecr.io/myapptodo:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
